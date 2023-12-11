@@ -1,43 +1,43 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/PHq8Kfj_)
 
-# TypeScript Project
+# Ruby Project
 
-## TypeScript ESLint
+## Ruby RuboCop
 
-This project follows the [TypeScript ESLint](https://typescript-eslint.io/) setup for linting TypeScript code.
+This project follows the [Ruby RuboCop](https://rubocop.org/) setup for linting Ruby code.
 
 ### Installation
 
-To install TypeScript ESLint and its dependencies, use the following commands:
+To install Ruby RuboCop and its dependencies, use the following commands:
 
 ```bash
-# Install TypeScript ESLint globally (if not installed)
-npm install -g typescript-eslint
+# Install Ruby RuboCop globally (if not installed)
+gem install rubocop
 
 # Install project dependencies
-npm install
+bundle install
 ```
 
 ### Usage
 
-To run TypeScript ESLint and lint the project, use the following command:
+To run Ruby RuboCop and lint the project, use the following command:
 
 ```bash
-# Run TypeScript ESLint
-npx eslint riceCooker.ts 
+# Run Ruby RuboCop
+rubocop
 ```
 
 ## Coding Standard
 
-This project adheres to the [TypeScript ESLint Standard](https://typescript-eslint.io/) for maintaining a consistent coding style.
+This project adheres to the [Ruby RuboCop Standard](https://rubocop.org/) for maintaining a consistent coding style.
 
 ## Installation and Execution
 
-1. Ensure you have Node.js and npm installed. If not, download and install them from [Node.js official website](https://nodejs.org/).
-2. Install TypeScript and ts-node globally:
+1. Ensure you have Ruby installed. If not, download and install it from [Ruby official website](https://www.ruby-lang.org/).
+2. Install Bundler (if not installed):
 
     ```bash
-    npm install -g typescript ts-node
+    gem install bundler
     ```
 
 3. Open a terminal or command prompt.
@@ -45,12 +45,13 @@ This project adheres to the [TypeScript ESLint Standard](https://typescript-esli
 5. Install project dependencies:
 
     ```bash
-    npm install
+    bundle install
     ```
 
-6. Execute the program using ts-node:
+6. Execute the program:
 
     ```bash
-    ts-node riceCooker.ts
+    ruby rice_cooker.rb
     ```
 
+Ensure that you have Ruby and Bundler installed on your system to execute this project. This setup maintains a consistent coding style using Ruby RuboCop.
