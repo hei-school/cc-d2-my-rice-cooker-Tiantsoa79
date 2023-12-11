@@ -21,7 +21,7 @@ For detailed installation instructions, please refer to the langage you prefer :
 [TypeScript](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/typescript).
 [Rust](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/rust).
 [Go](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/go).
-[Ruby]([link-to-be-added](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/ruby)).
+[Ruby](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/ruby).
 
 ## Contributing
 
