@@ -1,57 +1,42 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/PHq8Kfj_)
 
-# Ruby Project
+# Go Project
 
-## Ruby RuboCop
+## Go linter
 
-This project follows the [Ruby RuboCop](https://rubocop.org/) setup for linting Ruby code.
+This project follows the [Go linter](https://pkg.go.dev/golang.org/x/lint/golint) setup for linting Go code.
 
 ### Installation
 
-To install Ruby RuboCop and its dependencies, use the following commands:
+To install Go linter and its dependencies, use the following commands:
 
 ```bash
-# Install Ruby RuboCop globally (if not installed)
-gem install rubocop
-
-# Install project dependencies
-bundle install
+# Install Go linter globally (if not installed)
+go get -u golang.org/x/lint/golint
 ```
 
 ### Usage
 
-To run Ruby RuboCop and lint the project, use the following command:
+To run Go linter and lint the project, use the following command:
 
 ```bash
-# Run Ruby RuboCop
-rubocop
+# Run Go linter
+golint .
 ```
 
 ## Coding Standard
 
-This project adheres to the [Ruby RuboCop Standard](https://rubocop.org/) for maintaining a consistent coding style.
+This project adheres to the [Effective Go](https://golang.org/doc/effective_go.html) guidelines for maintaining a consistent coding style.
 
 ## Installation and Execution
 
-1. Ensure you have Ruby installed. If not, download and install it from [Ruby official website](https://www.ruby-lang.org/).
-2. Install Bundler (if not installed):
+1. Ensure you have Go installed. If not, download and install it from [Go official website](https://golang.org/dl/).
+2. Open a terminal or command prompt.
+3. Navigate to the project directory.
+4. Execute the program:
 
     ```bash
-    gem install bundler
+    go run riceCooker.go
     ```
 
-3. Open a terminal or command prompt.
-4. Navigate to the project directory.
-5. Install project dependencies:
-
-    ```bash
-    bundle install
-    ```
-
-6. Execute the program:
-
-    ```bash
-    ruby rice_cooker.rb
-    ```
-
-Ensure that you have Ruby and Bundler installed on your system to execute this project. This setup maintains a consistent coding style using Ruby RuboCop.
+Ensure that you have Go installed on your system to execute this project. This setup maintains a consistent coding style using the Go linter and follows the Effective Go guidelines.
